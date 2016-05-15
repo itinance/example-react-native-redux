@@ -1,4 +1,4 @@
-This forks demonstrates that react-native-router-flux does not work when using it with redux and relates to this issue: https://github.com/aksonov/react-native-router-flux/issues/680
+This fork demonstrates that react-native-router-flux does not work when using it with redux and relates to this issue: https://github.com/aksonov/react-native-router-flux/issues/680
 
 # Counter example
 
