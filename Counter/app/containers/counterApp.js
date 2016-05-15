@@ -17,9 +17,13 @@ class CounterApp extends Component {
 
   render() {
     const { state, actions } = this.props;
-    return (
 
-      <Counter counter={state.count} {...actions} />
+    return (
+		<Router>
+		    <Scene key="root">
+			  	<Scene key="counter" component={Counter} title="Login" counter={state.count} {...actions} />
+	  		</Scene>
+	  </Router>
     );
   }
 }
